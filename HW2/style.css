@@ -59,6 +59,7 @@ profile h1 {
     margin-bottom: 10px;
 }
 
+/* using a class here since there are no other attributes using hr */
 hr.break {
     margin: 0.5em auto; 
     height: 2px;
@@ -66,6 +67,7 @@ hr.break {
     border: none; 
 }
 
+/* using a class here */
 p.intro {
     max-width: 800px;
     margin: 0 auto;
