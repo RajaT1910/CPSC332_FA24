@@ -59,7 +59,14 @@ profile h1 {
     margin-bottom: 10px;
 }
 
-profile p {
+hr.break {
+    margin: 0.5em auto; 
+    height: 2px;
+    background-color: black; 
+    border: none; 
+}
+
+p.intro {
     max-width: 800px;
     margin: 0 auto;
     font-size: 18px;
@@ -136,6 +143,6 @@ main img {
 }
 
 main img:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); 
 }
 
