@@ -10,36 +10,130 @@ Last Modified: September 20, 2024
 <head>
     <title>Profile </title>
     <link rel="icon" type="image/webp" href="lion.webp">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <h1>Raja Sori</h1>
-    <p>
-        Computer Science student with a diverse background in software development, project management, and student engagement. Developed expertise in programming languages, algorithm design, and UI/UX implementation. Led the creation of multiple Java-based applications, including a Simon Memory Game and a custom programming language. Successfully balanced academic projects and professional responsibilities as an International Student Assistant, offering tailored support to new students. Proven ability to collaborate across teams and deliver technical solutions while maintaining leadership roles in athletic and volunteer activities.
-    </p>
-    <img src="profile.png" alt="Profile Picture" height="300" width="300"> 
-    
-    <h2 id="skills">Technical Skills</h2>
-    
-    <ul>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C++</li>
-        <li>Linux</li>
-        <li>Git</li>
-        <li>Visual Studio Code</li>
-        <li>Kotlin</li>
-        <li>Android Studio</li>
-        <li>AT&T Assembly</li>
-    </ul>
-
     <!-- Navigation Links -->
-    <nav>
-        <a href="career.html">Career Summary</a> | 
-        <a href="education.html">Education and Qualifications</a> |
-        <a href="interests.html">Interests</a> |
-        <!--This does nothing because the page doesn't have enough content. Included it just to meet rubric -->
-        <a href="#skills">Go to Technical Skills</a>  <!-- Fragment link -->
-    </nav>
+    <header>
+        <nav>
+            <a href="#career">Career Summary</a> | 
+            <a href="#edu">Education and Qualifications</a> |
+            <a href="#interest">Interests</a> |
+            <a href="#skills">Go to Technical Skills</a>  <!-- Fragment link -->
+        </nav>
+    </header>
+
+    <profile>
+        <img src="profile.png" alt="Profile Picture" height="300" width="300">
+        <h1>Raja Sori</h1>
+        <p>
+            Computer Science student with a diverse background in software development, project management, and student engagement. Developed expertise in programming languages, algorithm design, and UI/UX implementation. Led the creation of multiple Java-based applications, including a Simon Memory Game and a custom programming language. Successfully balanced academic projects and professional responsibilities as an International Student Assistant, offering tailored support to new students. Proven ability to collaborate across teams and deliver technical solutions while maintaining leadership roles in athletic and volunteer activities.
+        </p>
+    </profile>
+     
+    <main>
+        <h2 id="skills">Technical Skills</h2>
+        
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Linux</li>
+            <li>Git</li>
+            <li>Visual Studio Code</li>
+            <li>Kotlin</li>
+            <li>Android Studio</li>
+            <li>AT&T Assembly</li>
+        </ul>
+
+        <!-- form career  -->
+        <table id="career" style="border: 1px solid black;">
+            <caption>Professional Experience</caption>
+            <tr>
+                <th>Role</th>
+                <th>Company</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+            </tr>
+            <tr>
+                <td>International Student Assistant</td>
+                <td>Gonzaga University</td>
+                <td>February 2024</td>
+                <td>Presently Working</td>
+            </tr>
+            <tr>
+                <td>Teaching Assistant</td>
+                <td>Gonzaga University</td>
+                <td>September 2024</td>
+                <td>Presently Working</td>
+            </tr>
+        </table>
+        <!-- From education -->
+        <table id="edu" style="border: 1px solid black;">
+            <caption>Education</caption>
+            <tr>
+                <th>Degree/Level</th>
+                <th>Minors</th>
+                <th>Concentrations</th>
+                <th>Institution</th>
+                <th>Completion Date</th>
+    
+            </tr>
+            <tr>
+                <td>Bachelor of Science in Computer Science</td>
+                <td>Applied Math</td>
+                <td>Software Security. Software Development</td>
+                <td>Gonzaga University</td>
+                <td>May 2025</td>
+            </tr>
+            <tr>
+                <td>Highschool Diploma</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>One Planet International School</td>
+                <td>December 2020</td>
+            </tr>
+          </table>
+        
+          <table style="border: 1px solid black;">
+            <caption>Qualifications</caption>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Intermidiate</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>Advanced</td>
+            </tr>
+          </table>
+        <!-- from Intersts page -->
+
+        <h1 id="interest">Interests and Hobbies</h1>
+        <ol>
+            <li>Football<br>
+                <a href="https://youtu.be/TG2xsIY8waQ?si=Sslv_mGkjt2wzhwN" target="_blank"> <!-- Loads another tab-->
+                    <img src="footy.jpg" alt="Footy Image" height="425" width="270">
+                </a>
+            </li>
+            <li>Gaming<br>
+                <img src="gaming.jpg" alt="Gaming Image" height="480" width="360">
+            </li>
+            <li>Working out</li>
+            <li>Biking</li>
+            <li>Volley Ball</li>
+            <li>Making and Editing Videos</li>
+            <li>Watching Movies/Shows</li>
+            <li>Sleeping</li>
+        </ol>
+    </main>
+    
 </body>
 </html>

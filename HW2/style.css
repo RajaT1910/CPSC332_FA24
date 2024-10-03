@@ -1,0 +1,141 @@
+/* Raja Sori
+   Class: Web Development
+   Assignment: HW3
+   Last Modified: 
+*/
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout Styling */
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(rgb(193, 227, 186), lightblue); */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #ffcc00;
+}
+
+profile {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* background: linear-gradient(rgb(193, 227, 186), lightblue); */
+}
+
+profile img {
+    border-radius: 30%;
+    border: 3px solid #333;
+    margin-bottom: 20px;
+}
+
+profile h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+profile p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Main Content Area */
+main {
+    flex: 3;
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Technical Skills List */
+main ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+main ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Tables Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Interests and Hobbies */
+main ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+main ol li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Image Styling */
+main img {
+    margin: 15px auto;
+    border: 3px solid #333;
+    transition: transform 0.3s;
+}
+
+main img:hover {
+    transform: scale(1.05);
+}
+
